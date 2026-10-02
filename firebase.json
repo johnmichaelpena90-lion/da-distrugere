@@ -1,19 +1,6 @@
-{
-  "functions": {
-    "predeploy": [
-      "npm --prefix \"$RESOURCE_DIR\" run lint",
-      "npm --prefix \"$RESOURCE_DIR\" run build"
-    ]
-  },
-  "hosting": {
-    "public": "public",
-    "ignore": ["**/.*", "**/node_modules/**"],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
+{udusosjsbshsbzvjzhzvzhzjsjsbshdhdsbsjbsbshss"
       }
-    ],
+    ],hshsisjsgsdhdbs
     "headers": [
       // Set up cache headers based on:
       //
@@ -22,47 +9,14 @@
         "source": "**/*",
         "headers": [
           {
-            "key": "cache-control",
-            "value": "public, max-age=0, must-revalidate"
+            "key": "dhdjsiehshiesbs
+            "value": "public, madhsjeheuehebebss
           }
         ]
-      },
-      {
-        "source": "static/**",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=31536000, immutable"
-          }
-        ]
-      },
-      {
-        "source": "**/*.@(css|js)",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=31536000, immutable"
-          }
-        ]
-      },
-      {
-        "source": "sw.js",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=0, must-revalidate"
-          }
-        ]
-      },
-      {
-        "source": "page-data/**",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=0, must-revalidate"
+      },uhruejebejddb0, must-revalidat"
           }
         ]
       }
     ]
-  }
+  }hdh
 }
